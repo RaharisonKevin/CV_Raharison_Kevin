@@ -1,10 +1,10 @@
 # Portfolio Kevin Raharison
 
 ## Sommaire:
-* ### Compétences
-* ### Logiciels
-* ### Projets
-* ### Contact
+* Compétences
+* Logiciels
+* Projets
+* Contact
 
 ### Compétences:
 * javascript
