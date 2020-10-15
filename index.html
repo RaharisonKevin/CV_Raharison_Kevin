@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="css/style.css" type=text/css>
 </head>
 
-<body>
+<body itemscope itemtype="https://schema.org/WebPage">
         
 
     <header>
-    <h1>Curriculum Vitae</h1>
+    <h1 itemprop="headline">Curriculum Vitae</h1>
     <nav>
         <ul>
             <li><a href="#Compétences" title="Compétences">Compétences</a></li>
@@ -25,21 +25,23 @@
     <main>
     <section>
         <h2 id="Compétences" class="bookmark">Compétences</h2>
-        <p>javascript,html5,CSS3,java,sql</p>
+        <p itemprop="description">javascript,html5,CSS3,java,sql</p>
     </section>
     <section>
         <h2 id="Logiciels" class="bookmark">Logiciels & Éditeur Web</h2>
-        <p>Visual studio code , Eclipse , Pycharm.</p>   
+        <p itemprop="description">Visual studio code , Eclipse , Pycharm.</p>   
     </section>
+</adress>
     </main>
    <footer>
        <h3>Contact:</h3>
-       <hr>
        <ul>
+        <address itemscope itemtype="https://schema.org/PostalAddress">
            <li>Comment me contacter?</li>
-           <li>Adresse E-mail: <strong>kevinraharison23@gmail.com</strong></li>
-           <li>Numero de telephone: <strong>(+33)06 15 90 51 85 </strong></li>
-           <li>&copy;MIT 200</li>
+           <li itemprop="email">Adresse E-mail: <strong>kevinraharison23@gmail.com</strong></li>
+           <li itemprop="telephone">Numero de telephone: <strong>(+33)06 15 90 51 85 </strong></li>
+        </address>
+           <li itemprop="copyrightHolder">&copy;MIT 200,Raharison.K</li>
        </ul> 
    </footer> 
 </body>
